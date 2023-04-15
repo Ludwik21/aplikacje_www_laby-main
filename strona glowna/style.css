@@ -1,0 +1,26 @@
+.logo{
+    margin-left: 895px;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.photos{
+    float: left;
+    width: 50%;
+}
+.products{
+    box-sizing: border-box;
+    
+}
+
+.column{
+    float: right;
+    width: 17.33%;
+    margin-top: 150px;
+    margin-right: 120px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}

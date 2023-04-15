@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Szkoła Webowania</title>
+	<style>
+	</style>
+    <link rel="stylesheet" href="style.css">
+	<script type="text/javascript">
+	function odliczanie()
+	{
+		var dzisiaj = new Date();
+
+		var dzien = dzisiaj.getDate();
+		var miesiac = dzisiaj.getMonth()+1;
+		var rok = dzisiaj.getFullYear();
+
+		var godzina = dzisiaj.getHours();
+		if (godzina<10) godzina = "0"+godzina;
+
+		var minuta = dzisiaj.getMinutes();
+		if (minuta<10) minuta = "0"+minuta;
+
+		var sekunda = dzisiaj.getSeconds();
+		if (sekunda<10) sekunda = "0"+sekunda;
+		document.getElementById("zegar").innerHTML =
+		dzien+"/"+miesiac+":"+rok+"|"+godzina+":"+minuta+":"+sekunda;
+		setTimeout("odliczanie()", 1000);
+	}	
+		
+	</script>
+</head>
+<body onload="odliczanie();">
+	<div id="zegar"></div>
+	<script type="text/javascript">
+		document.getElementById("zegar").innerHTML =
+		dzien+"/"+miesiac+":"+rok+"|"+godzina+":"+minuta+":"+sekunda;
+	</script>
+	<div>
+		<img class='logo' src="logo.jpg" width="4%">
+	</div>
+
+	<div>
+		<img class='photos' src="fotka1.png" width="49.9%">
+	</div>
+
+	<div>
+		<img class='photos' src="fota2.png" width="50%">
+	</div> <br>
+
+	<div class="row">
+        <div class="column">
+            <a href=""><img class="products" src="surfboards.jpg" width="100%"></a>
+        </div>
+
+        <div class="column">
+            <a href=""><img class="products" src="swimsuits for mem.jpg" width="100%"></a>
+        </div>
+
+        <div class="column">
+            <a href=""><img class="products" src="swimsuits for women.jpg" width="100%"></a>
+        </div>
+
+		<div class="column">
+            <a href=""><img class="products" src="bikini.jpg" width="100%"></a>
+        </div>
+    </div>
+	<br>
+</body>
+</html>
