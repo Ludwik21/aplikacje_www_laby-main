@@ -1,5 +1,5 @@
 .logo{
-    margin-left: 645px;
+    margin-left: 895px;
     margin-right: auto;
     margin-bottom: 20px;
 }
@@ -15,67 +15,37 @@
 
 .column{
     float: right;
-    width: 12.33%;
+    width: 17.33%;
     margin-top: 150px;
-    margin-right: 140px;
+    margin-right: 120px;
 }
 .row::after{
     content: "";
     display: table;
     clear: both;
 }
-
-
-.stroje{
-    float: left;
+.surfboards{
     position: absolute;
-    top: 1060px;
-    left: 145px;
-    @font-face 
-        font-family: bahnschrift;
-        src: url(Bahnschrift.ttf); 
-    }
-
-    .piankiD{
-        float: left;
-        position: absolute;
-        top: 1060px;
-        left: 460px;
-        @font-face 
-            font-family: bahnschrift;
-            src: url(Bahnschrift.ttf); 
-      }
-
-      .piankiM{
-        float: left;
-        position: absolute;
-        top: 1060px;
-        left: 765px;
-        @font-face 
-            font-family: bahnschrift;
-            src: url(Bahnschrift.ttf); 
-      }
-
-      .deskiSurf{
-        float: left;
-        position: absolute;
-        top: 1060px;
-        left: 1060px;
-        @font-face 
-            font-family: bahnschrift;
-            src: url(Bahnschrift.ttf); 
-      }
-    
-      .box{
-        color: slategray;
-        background-color:slategray;
-        width: 100%;
-        height: 50%;
-        margin-top: 100px;
-     }
-
-      .logo2{
-        background-color: slategray;
-        margin-left: 645px;
-        margin-right: auto;
-    }
+    top: 1490px;
+    left: 1485px;
+}
+.stroje{
+    position: absolute;
+    top: 1525px;
+    left: 50px;
+}
+.piankiD{
+    position: absolute;
+    top: 1525px;
+    left: 495px;
+}
+.piankiM{
+    position: absolute;
+    top: 1525px;
+    left: 930px;
+}
+.video{
+    position: absolute;
+    left: 650px;
+    top: 1700px;
+}
