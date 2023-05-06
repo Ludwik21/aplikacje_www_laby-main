@@ -1,0 +1,48 @@
+.logo{
+    margin-left: 895px;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.column{
+    position: relative;
+    float: right;
+    width: 17.33%;
+    margin-top: 150px;
+    margin-right: 220px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hover_img{
+    position: absolute;
+    float: right;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+}
+
+.column:hover .hover_img {
+    display: inline;
+}
+.dreamland{
+    position: absolute;
+    top: 650px;
+    left: 830px;
+}
+.bday{
+    position: absolute;
+    top: 650px;
+    left: 1400px;
+}
+.pipe{
+    position: absolute;
+    top: 650px;
+    left: 300px;
+}
