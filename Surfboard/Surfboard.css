@@ -1,0 +1,49 @@
+.logo{
+    margin-left: 895px;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.column{
+    position: relative;
+    float: right;
+    width: 17.33%;
+    margin-top: 150px;
+    margin-right: 220px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hover_img{
+    position: absolute;
+    float: right;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+}
+
+.column:hover .hover_img {
+    display: inline;
+}
+.blueocean{
+    position: absolute;
+    top: 1350px;
+    left: 830px;
+}
+
+.pumpkin{
+    position: absolute;
+    top: 1350px;
+    left: 1355px;
+}
+.fireware{
+    position: absolute;
+    top: 1350px;
+    left: 290px;
+}

@@ -1,0 +1,65 @@
+.logo{
+    margin-left: 895px;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.column{
+    position: relative;
+    float: right;
+    width: 17.33%;
+    margin-top: 150px;
+    margin-right: 220px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column2{
+    position: relative;
+    float: right;
+    width: 17.33%;
+    margin-top: 350px;
+    margin-right: 220px;
+}
+
+.row2::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hover_img{
+    position: absolute;
+    float: right;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+}
+
+.column:hover .hover_img {
+    display: inline;
+}
+
+.column2:hover .hover_img {
+    display: inline;
+}
+.lined{
+    position: absolute;
+    top: 650px;
+    left: 830px;
+}
+.sky{
+    position: absolute;
+    top: 650px;
+    left: 1400px;
+}
+.blueocean{
+    position: absolute;
+    top: 650px;
+    left: 300px;
+}
